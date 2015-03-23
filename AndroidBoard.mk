@@ -15,7 +15,7 @@
 #
 
 KERNEL_DEFCONFIG := hammerhead_defconfig
-KERNEL_DIR := msm-kernel
+KERNEL_DIR := kernel
 
 -include $(TOP)/$(KERNEL_DIR)/AndroidKernel.mk
 
@@ -24,4 +24,3 @@ KERNEL_DIR := msm-kernel
 .PHONY: $(PRODUCT_OUT)/kernel
 $(PRODUCT_OUT)/kernel: $(TARGET_PREBUILT_KERNEL)
 	cp $(TARGET_PREBUILT_KERNEL) $(PRODUCT_OUT)/kernel
-

@@ -19,6 +19,7 @@
 #
 # Everything in this directory will become public
 
+TARGET_PREBUILT_KERNEL=/home/simar/Development/AOSP/device/lge/hammerhead-kernel/zImage-dtb
 
 PRODUCT_COPY_FILES += \
     device/lge/hammerhead/init.hammerhead.rc:root/init.hammerhead.rc \
